@@ -22,7 +22,7 @@ int main()
         cin >> startingPop;
     }
 
-    // Get the daily increase, which cannot be negative.
+    // Get the daily increase, which cannot be negative as I remember.
     cout << "Enter the average daily population increase (as a percentage): ";
     cin >> dailyIncrease;
     while (dailyIncrease < 0)
@@ -44,7 +44,7 @@ int main()
     double rate = dailyIncrease / 100.0;
     double population = startingPop;
 
-    // Show the population for each day, then grow it for the next day.
+    // Show the population for each day, then grow it for the next day (took a minute, but it works).
     cout << fixed << setprecision(2);
     cout << "\nDay       Population\n";
     cout << "--------------------\n";
