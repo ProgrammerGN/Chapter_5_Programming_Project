@@ -13,7 +13,7 @@ int main()
     const int MIN = 1;      // smallest number the game will pick
     const int MAX = 100;    // largest number the game will pick
 
-    // Random number engine and the distribution it pulls the number from.
+    // Random numberr engine and the distribution it pulls the number from.
     random_device engine;
     uniform_int_distribution<int> randomNumber(MIN, MAX);
 
